@@ -1,0 +1,28 @@
+# Build files
+/build/
+/out/
+/*.vcxproj*
+/*.sln
+/CMakeCache.txt
+/CMakeFiles/
+/Makefile
+/*.user
+.vs/
+
+# DLLs and binaries
+*.dll
+*.lib
+*.pdb
+*.exe
+
+# VLC plugins and runtime files
+/plugins/
+/*.dat
+/*.so
+/*.a
+
+# VS Code & OS metadata
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
