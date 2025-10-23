@@ -11,7 +11,8 @@
         "CMAKE_C_COMPILER": "cl.exe",
         "CMAKE_CXX_COMPILER": "cl.exe",
         "CMAKE_TOOLCHAIN_FILE": "R:/projects/C++/Attendance/vcpkg/scripts/buildsystems/vcpkg.cmake",
-        "VCPKG_TARGET_TRIPLET": "x64-windows" 
+        "VCPKG_TARGET_TRIPLET": "x64-windows",
+        "IMGUI_BACKENDS_DIR": "R:\\projects\\C++\\Attendance\\vcpkg\\buildtrees\\imgui\\src\\v1.91.9-afb09617a6.clean\\backends"
       },
       "condition": {
         "type": "equals",
@@ -28,7 +29,8 @@
         "strategy": "external"
       },
       "cacheVariables": {
-        "CMAKE_BUILD_TYPE": "Debug"
+        "CMAKE_BUILD_TYPE": "Debug",
+        "IMGUI_BACKENDS_DIR": "R:\\projects\\C++\\Attendance\\vcpkg\\buildtrees\\imgui\\src\\v1.91.9-afb09617a6.clean\\backends"
       }
     },
     {
@@ -40,7 +42,8 @@
         "strategy": "external"
       },
       "cacheVariables": {
-        "CMAKE_BUILD_TYPE": "Release"
+        "CMAKE_BUILD_TYPE": "Release",
+        "IMGUI_BACKENDS_DIR": "R:\\projects\\C++\\Attendance\\vcpkg\\buildtrees\\imgui\\src\\v1.91.9-afb09617a6.clean\\backends"
       }
     }
   ]
