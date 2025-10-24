@@ -14,7 +14,7 @@ find_package(imgui CONFIG REQUIRED)                  # imgui::imgui
 find_package(OpenGL REQUIRED)                        # OpenGL::GL
 
 # ---- Executable ----
-add_executable(attendance main.cpp)
+add_executable(attendance main.cpp "db_utils.cpp" "auth_manager.cpp" "user_dao.cpp" "db_utils.h" "auth_manager.h" "user_dao.h" "events_dao.h" "events_dao.cpp")
 
 # ---- qrencode (vcpkg port: libqrencode does not ship a CMake config) ----
 find_path(QRENCODE_INCLUDE_DIR NAMES qrencode.h)
